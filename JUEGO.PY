@@ -31,5 +31,5 @@ while mode=True:
                         pantalla.fill(fondo)
                         pygame.draw.rect(window,blue,player)
                         pygame.display.flip()
-                        pygame.display.,flip()
+                        pygame.display.flip()
                         
