@@ -2,7 +2,7 @@ import pygame
 import sys
 pygame.init()
 x,y=3040,2160
-window=pygame.dysplay.set_mode(x,y)
+window=pygame.dysplay.set_mode((x,y))
 pygame.display.set_caption("El Cuadrado Saltarín")
 fps = pygame.time.Clock()
 z=pygame.font.Sysfont
